@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <!-- Titre -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IMC For II-Master BDCC"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Image d'introduction -->
+    <ImageView
+        android:id="@+id/headerImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/imc"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="Image d'accueil" />
+
+    <!-- Ligne Poids -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Poids (kg) : "
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editWeight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@android:color/darker_gray"
+            android:background="@android:drawable/edit_text"
+            android:paddingBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:gravity="bottom"
+            android:layout_marginBottom="4dp" />
+    </LinearLayout>
+
+    <!-- Ligne Taille -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taille (cm) : "
+            android:layout_gravity="center_vertical" />
+
+        <EditText
+            android:id="@+id/editHeight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:backgroundTint="@android:color/darker_gray"
+            android:background="@android:drawable/edit_text"
+            android:paddingBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:gravity="bottom"
+            android:layout_marginBottom="4dp" />
+    </LinearLayout>
+
+    <!-- Bouton Calculer -->
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculer IMC"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Résultat IMC -->
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Image selon l’IMC -->
+    <ImageView
+        android:id="@+id/imcStatusImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:contentDescription="Image de statut IMC" />
+</LinearLayout>
