@@ -1,5 +1,4 @@
 <h1>📱 Calcul IMC</h1>
-<br />
 <p>
 Une simple application Android qui permet de calculer et d'afficher l'IMC (Indice de Masse Corporelle) 
 d'un utilisateur en fonction de son <b>poids</b> et sa <b>hauteur</b> 
@@ -8,8 +7,6 @@ d'un utilisateur en fonction de son <b>poids</b> et sa <b>hauteur</b>
 <br />
 
 <h3>🧮 Formule mathématique de l'IMC</h3>
-<br />
-
 <p>
 <b>IMC</b> = <b>Poids (Kg)</b> ➗ <b>Taille² (m)</b>
 </p>
@@ -17,9 +14,6 @@ d'un utilisateur en fonction de son <b>poids</b> et sa <b>hauteur</b>
 <br />
 
 <h3>🤖 Technologies utilisées</h3>
-
-<br />
-
 <ul>
 <li><b>Language de programmation : Java</b></li>
 <li><b>Environnement de développement : Android Studio</b></li>
@@ -33,7 +27,7 @@ d'un utilisateur en fonction de son <b>poids</b> et sa <b>hauteur</b>
 <br />
 <p>1 - L'utilisateur doit saisir son poids et sa taille</p>
 <p>2 - L'application valide les données saisies</p>
-<p>3 - Si tous passe bien, l'application calcule l'IMC, et affiche : </p>
+<p>3 - Si tout passe bien, l'application calcule l'IMC, et affiche : </p>
 <ul>
 <li>L'IMC calculé</li>
 <li>Une image convenable qui explique très bien la valeur de l'IMC</li>
