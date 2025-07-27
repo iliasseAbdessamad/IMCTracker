@@ -52,4 +52,4 @@ d'un utilisateur en fonction de son <b>poids</b> et sa <b>hauteur</b>
 
 <p>🖊️ <b>Réalisé par :</b> Iliasse Abdessamad</p>
 <p>📚 <b>Sujet :</b> Développement mobile pour la platforme Android</p>
-<p>🗓️ <b>Année :</b> 2025 - 2025</p>
+<p>🗓️ <b>Année :</b> 2024 - 2025</p>
